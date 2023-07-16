@@ -125,11 +125,15 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-size: 12px
+    font-size: 12px;
 }
+
 
 .network-contato a {
     color: rgb(70, 96, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .network-contato p {
@@ -150,7 +154,9 @@ a:active {
     align-items: center;
     justify-content: center;
     padding: 16px;
-    transition: all 1s ease
+    transition: all 1s ease;
+    padding-block-end: 50px;
+    display: flex;
 }
 
 .network-card img {
@@ -161,6 +167,7 @@ a:active {
     background-color: transparent;
 }
 
+
 .card {
     background-color: transparent;
     border: transparent;
@@ -168,7 +175,7 @@ a:active {
 
 .network-card:hover {
     transform: translateY(-10px);
-    color: rgb(255, 255, 255);
+    color: rgb(19, 17, 17);
     border: 3px solid rgb(247, 0, 144);
     box-shadow: rgba(82, 100, 190, 0.3) 0px 19px 38px, rgba(250, 244, 244, 0.22) 0px 15px 12px;
     background-color: transparent;
@@ -178,8 +185,21 @@ a:active {
     color: rgb(28, 28, 207);
 }
 
+.botao {
+    color: ivory;
+    background-color: #040333e0;
+    border: 1px solid ivory;
+    border-radius: 5px;
+    box-shadow: 0 0 5px ivory;
+    font-weight: bold;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-button {
+.float {
     display: flex;
     width: 50px;
     height: 50px;
@@ -187,12 +207,13 @@ button {
     right: 1%;
     bottom: 2%;
     border-radius: 50%;
-    background-color: #2f282d;
-    border: 1px solid #d44db2;
+    background-color: #1c8261;
+    border: 1px solid #e7dee5;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(124, 229, 129);
 }
+
 
 
 footer {
